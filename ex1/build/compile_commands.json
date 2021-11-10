@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/gris/gris-f/homelv/jkim/PMPP_Ex1/ex1/build",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/matmul.dir/main.cc.o -c /gris/gris-f/homelv/jkim/PMPP_Ex1/ex1/main.cc",
+  "file": "/gris/gris-f/homelv/jkim/PMPP_Ex1/ex1/main.cc"
+},
+{
+  "directory": "/gris/gris-f/homelv/jkim/PMPP_Ex1/ex1/build",
+  "command": "/usr/bin/nvcc      -x cu -c /gris/gris-f/homelv/jkim/PMPP_Ex1/ex1/matmul.cu -o CMakeFiles/matmul.dir/matmul.cu.o",
+  "file": "/gris/gris-f/homelv/jkim/PMPP_Ex1/ex1/matmul.cu"
+},
+{
+  "directory": "/gris/gris-f/homelv/jkim/PMPP_Ex1/ex1/build",
+  "command": "/usr/bin/nvcc      -x cu -c /gris/gris-f/homelv/jkim/PMPP_Ex1/ex1/matrix.cu -o CMakeFiles/matmul.dir/matrix.cu.o",
+  "file": "/gris/gris-f/homelv/jkim/PMPP_Ex1/ex1/matrix.cu"
+},
+{
+  "directory": "/gris/gris-f/homelv/jkim/PMPP_Ex1/ex1/build",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/matmul.dir/test.cc.o -c /gris/gris-f/homelv/jkim/PMPP_Ex1/ex1/test.cc",
+  "file": "/gris/gris-f/homelv/jkim/PMPP_Ex1/ex1/test.cc"
+},
+{
+  "directory": "/gris/gris-f/homelv/jkim/PMPP_Ex1/ex1/build",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/matmul.dir/mul_cpu.cc.o -c /gris/gris-f/homelv/jkim/PMPP_Ex1/ex1/mul_cpu.cc",
+  "file": "/gris/gris-f/homelv/jkim/PMPP_Ex1/ex1/mul_cpu.cc"
+},
+{
+  "directory": "/gris/gris-f/homelv/jkim/PMPP_Ex1/ex1/build",
+  "command": "/usr/bin/nvcc      -x cu -c /gris/gris-f/homelv/jkim/PMPP_Ex1/ex1/mul_gpu.cu -o CMakeFiles/matmul.dir/mul_gpu.cu.o",
+  "file": "/gris/gris-f/homelv/jkim/PMPP_Ex1/ex1/mul_gpu.cu"
+}
+]

@@ -1,4 +1,4 @@
-project(MatMul CXX)
+project(MatMul CXX CUDA)
 cmake_minimum_required(VERSION 3.8)
 
 # Set the default build type
@@ -10,8 +10,11 @@ endif()
 # This will create an executable named 'matmul'.
 add_executable(matmul
 	main.cc
-	matmul.cc
+	matmul.cu
+	matrix.cu
 	test.cc
+	mul_cpu.cc
+	mul_gpu.cu
 )
 
 set_target_properties(matmul PROPERTIES CUDA_ARCHITECTURES "75")
